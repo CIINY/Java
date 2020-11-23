@@ -1,0 +1,41 @@
+음료 주문 및 멤버십 관리 프로그램
+
+사용자(*고객고유번호 custNum(20), 아이디 custID(20), 비밀번호 custPW(30), 이름 name(10), 성별 sex(10), 전화번호 tel(20), 이메일 email(50))
+관리자(*아이디 ID(20), 비밀번호 PW(20), <<지점 고유번호(중복허용), 이름>>)
+스탬프(*아이디(중복허용), 스탬프 갯수)
+
+메뉴(*음료고유번호 menuNumber(20), 음료이름 menuName(15) , 아이스/핫 icehot(10), 가격 price(10), 사이즈 size(5))
+주문(*주문번호 oderNum(20), 고객고유번호(중복 허용) custNum(20), 음료고유번호 menuNum(20), 주문 갯수 number(10), 총 가격 sumPrice(20))
+지점(*지점 고유번호 branchNum(30), 지점명 branchName(30), 지점 위치 branchLocation(80), 영업시간 time(20))
+주문내역(고객고유번호, 주문 릴레이션(중복 허용))
+
+
+입력하는 거 하나, 검색하는 거 하나
+
+
+클래스이름, 속성, 메소드
+
+PrjNameCard에 있는 dbConnect 코드부터 다 긁어서 생성자 다음에 쫙 넣어줘라.
+driver는 그대로. url에 jdbc : odbc : (우리가 만든 데베 안에 있는 테이블)
+
+conn = null
+stmt = null
+rs = null
+는 꼭 만들어야함.
+
+String sql = "Select * From customer"; -> 우리가 보여줘야할 테이블이름. customer : 내가 만든 테이블 명으로 수정
+
+
+main함수에서 dbConnect() -> db연결하는 거임
+이 함수를 거치면 "데이터베이스 연결 성공!"이 뜬다.
+
+insert한게 들어왔는지 안왔는지 확인
+actionPerformed함수에 있는것이 바로 윗줄 내용.
+저장 버튼, 앞 뒤 레코드 보여라 라는 버튼일 수도 있음. 
+e.getSource() == save → 저장버튼이라는 의미
+저장버튼이라면 저장해라.
+"insert", "insert into customer values -> customer: 내가 만든 테이블 이름으로 바꾸기
+"+a+"' -> null값, 기본키 값을 안줘도 레코드 값을 들어가게 해줌
+
+reloaddown 앞쪽으로 당기는 거
+viewData() -> 
