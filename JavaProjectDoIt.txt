@@ -13,3 +13,11 @@
 - 지점추가
 
 - 지점삭제: JTable로 지점릴레이션의 값을 가져와 한 애트리뷰트를 선택한 뒤 다음 창에 그 값을 가져와야함. 그리고 삭제)
+
+https://www.youtube.com./watch?v=6cNYUc2PIag
+
+DB에서 스윙JTable로 가져오기, 저장하기~~~
+https://m.blog.naver.com/PostView.nhn?blogId=battledocho&logNo=220014094399&proxyReferer=https:%2F%2Fwww.google.com%2F
+
+https://www.phpschool.com/gnuboard4/bbs/board.php?bo_table=qna_db&wr_id=149122
+
