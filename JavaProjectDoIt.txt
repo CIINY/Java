@@ -9,8 +9,6 @@
 
 스탬프 확인
 
-회원정보 수정했을시 수정한 정보가 저장되도록.
-
 #관리자
 
 지점처리(지점추가, 지점삭제)
@@ -29,9 +27,7 @@ https://www.phpschool.com/gnuboard4/bbs/board.php?bo_table=qna_db&wr_id=149122
 
 우선순위
 
-회원정보 수정
 
-지점처리(추가, 삭제)
 
 -------------------- 60퍼센트 완료
 
@@ -40,11 +36,11 @@ https://www.phpschool.com/gnuboard4/bbs/board.php?bo_table=qna_db&wr_id=149122
 장바구니 추가, 삭제
 주문하기
 
-사용자 주문목록 확인
-관리자 주문목록 확인
+사용자 주문목록 확인where
+관리자 주문목록 확인all
 
 스탬프 확인
-멤버쉽 확인
+멤버쉽 확인 스탬프갯수를 if문으로 가져오기 (getText())
 
 + 제발좀 궁금한거 생기면 교수님께 카톡을 날리자
 
