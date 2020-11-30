@@ -27,13 +27,10 @@ https://www.phpschool.com/gnuboard4/bbs/board.php?bo_table=qna_db&wr_id=149122
 
 우선순위
 
+++ 회원탈퇴기능 완료
+++ 장바구니 추가기능 완료
 
-
--------------------- 60퍼센트 완료
-
-각 화면별로 Label, button 필요한 화면 생각
-
-장바구니 추가, 삭제
+장바구니 삭제
 주문하기
 
 사용자 주문목록 확인where
