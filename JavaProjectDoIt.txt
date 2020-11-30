@@ -33,6 +33,9 @@ https://www.phpschool.com/gnuboard4/bbs/board.php?bo_table=qna_db&wr_id=149122
 장바구니 삭제
 주문하기
 
+**메뉴판에 선택한 메뉴가 다음 화면인 장바구니에 담겨진 것을 나타내야 하는데, 사용자 a가 주문한 데이터 내역들이 과거에
+존재한다면?
+
 사용자 주문목록 확인where
 관리자 주문목록 확인all
 
